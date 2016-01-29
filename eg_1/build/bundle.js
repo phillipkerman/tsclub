@@ -44,7 +44,13 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	console.log("index.tsx");
+	//console.log("index.tsx");
+	//import MyModule  from './MyModule.tsx';
+	//console.log(MyModule.SOME_CONSTANT);
+	if (true) {
+	    var myVar = "test from index.ts";
+	    console.log(myVar);
+	}
 
 
 /***/ }

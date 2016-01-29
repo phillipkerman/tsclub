@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true,
+        "jsx": "react",
+        "target": "es5"
+    },
+    "files": [
+        "./app/MyModule.tsx",
+        "./app/index.ts",
+        "./typings/tsd.d.ts"
+    ],
+    "filesGlob": [
+        "./app/**/*.tsx",
+        "./app/**/*.ts",
+        "./typings/tsd.d.ts"
+    ],
+    "compileOnSave": false,
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
